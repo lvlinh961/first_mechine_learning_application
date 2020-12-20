@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework', # add django REST framework
     # apps
-    'apps.endpoints'
+    'apps.endpoints',
+    'apps.ml'
 ]
 
 MIDDLEWARE = [
